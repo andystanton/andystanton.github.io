@@ -16,6 +16,25 @@
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style type="text/css">
+
+      div .theLegend {
+        float: right;
+      }
+
+
+      @media (max-width: 500px) {
+        div .theLegend {
+          float: left;
+        }
+      }
+
+      div .theMan {
+        float: left;
+      }
+
+
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -23,23 +42,26 @@
         <div id="title">
           <h1>andystanton.github.io</h1>
         </div>
-        <div style="float:left">
-        <h2>on github</h2>
-        <ul>
-            <li><a href="glfw-skeleton">glfw-skeleton</a></li>
-            <li><a href="https://github.com/andystanton/glfw-skeleton-ruby">glfw-skeleton-ruby</a></li>
-            <li><a href="https://github.com/andystanton/lana-snake">lana-snake</a></li>
-            <li><a href="https://github.com/andystanton/lana-tetris">lana-tetris</a></li>
-            <li><a href="https://github.com/andystanton/lana-tennis">lana-tennis</a></li>
-        </ul>
+
+        <div>
+        <div class="theMan">
+          <h2>the man</h2>
+          <ul>
+              <li><a href="http://andy.stanton.is?"/>andy.stanton.is?</a></li>
+              <li><a href="https://github.com/andystanton"/>github.com/andystanton</a></li>
+              <li><a href="https://twitter.com/andy_stanton"/>twitter/andy_stanton</a></li>
+          </ul> 
         </div>
 
-        <div style="float:right">
-        <h2>elsewhere</h2>
-        <ul>
-            <li><a href="http://andy.stanton.is?"/>andy.stanton.is?</a></li>
-            <li><a href="https://twitter.com/andy_stanton"/>twitter</a></li>
-        </ul> 
+        <div class="theLegend">
+          <h2>the legend</h2>
+          <ul>
+              <li><a href="http://andystanton.github.io/glfw-skeleton">glfw-skeleton (C++/Ruby)</a></li>
+              <li><a href="https://github.com/andystanton/lana-snake">lana-snake</a></li>
+              <li><a href="https://github.com/andystanton/lana-tetris">lana-tetris</a></li>
+              <li><a href="https://github.com/andystanton/lana-tennis">lana-tennis</a></li>
+          </ul>
+        </div>
         </div>
       </section>
     </div>
